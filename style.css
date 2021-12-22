@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.contianer{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    /* background-color: lightgray; */
+}
+.nav-bar{
+    height: 40px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* text-align: left; */
+}
+.feed{
+    height: 40px;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+}
+.col-1{
+    flex: 1;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    height: 80px;
+    margin-top: 15px;
+}
+img,.avatar,.james{
+    margin-bottom: 15px;
+}
+.james,.neil{
+    font-size: 25px;
+}
+a{
+    font-size: 20px;
+}
+.col-3{
+    flex: 3;
+    height: 160px;
+    /* background-color: tomato; */
+}
+.box-1{
+    border: 3px solid black;
+    background: white;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.top-part{
+    display: flex;
+    /* background-color: burlywood; */
+    height: 40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.like-part{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#num-like,.word{
+    font-size: 20px;
+}
+button{
+    background: yellow;
+    color: black;
+    font-size: 15px;
+    width: 60px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+.bottom-part{
+    display: flex;
+    padding: 20px;
+    
+}
